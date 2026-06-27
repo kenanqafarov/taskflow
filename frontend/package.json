@@ -1,0 +1,25 @@
+{
+  "name": "taskflow-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "latest",
+    "@dnd-kit/sortable": "latest",
+    "@dnd-kit/utilities": "latest",
+    "@stomp/stompjs": "latest",
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^7.18.0",
+    "sockjs-client": "latest",
+    "vite": "latest"
+  }
+}
